@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: #070707;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(102, 150, 111, 0.75);
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: #1c1c1c;
+    width: 100%;
+    position: fixed  ;
+    top: 0;
+}
+
+.links {
+    padding: 0 100px;
+    font-size: 20px;
+    margin: 30px 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+li{
+    border: 1px solid #070707;
+    list-style: none;
+    text-align: center;
+    padding: 5px 8px;
+    background-color: whitesmoke    ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container{
+    padding: 0 100px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+p {
+    font-size: 26px;
+}
+
+
+#section-introducao {
+    scroll-margin-top: 110px ;
+    margin-top: 40px;
+    border-bottom: 2px solid black;
+    border-radius: 7px;
+    background-color: rgba(102, 150, 111, 0.75);
+    padding: 10px 30px 20px;
+}
+
+#section-problema {
+    scroll-margin-top: 110px ;
+    border-bottom: 2px solid black;
+    border-radius: 7px;
+    background-color: rgba(102, 150, 111, 0.75);
+    padding: 10px 30px 20px;
+}
+
+#section-entendimento {
+    scroll-margin-top: 110px ;
+    border-bottom: 2px solid black;
+    border-radius: 7px;
+    background-color: rgba(102, 150, 111, 0.75);
+    padding: 10px 30px 20px;
+}
+
+#section-solucao {
+    scroll-margin-top: 110px ;
+    border-bottom: 2px solid black;
+    border-radius: 7px;
+    background-color: rgba(102, 150, 111, 0.75);
+    padding: 10px 30px 20px;
+}
+
+#section-aplicacao {
+    scroll-margin-top: 110px ;
+    border-bottom: 2px solid black;
+    border-radius: 7px;
+    background-color: rgba(102, 150, 111, 0.75);
+    padding: 10px 30px 20px;
+}
+
+#section-comparacao {
+    scroll-margin-top: 110px ;
+    border-bottom: 2px solid black;
+    border-radius: 7px;
+    background-color: rgba(102, 150, 111, 0.75);
+    padding: 10px 30px 20px;
+}
+
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
