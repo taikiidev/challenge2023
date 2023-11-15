@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="back.js">
 </head>
 <body>
     <header id = 'menu'>
@@ -58,7 +59,7 @@
         </section>
         
         <section id ="section-entendimento">
-            <h1>Analise do problema.</h1>
+            <h1>Análise do problema.</h1>
             <p> A humanização dos processos e exames no hospital pode ser muito mais desafiador do que parece. São diferentes quadros e faixas etárias a serem consideradas.
                 Tendo em vista questão da diversidade como como o maior obstáculo do desafio, é imrpotante introduzir uma solução abrangente e eficaz de forma que todos tenham
                 uma melhor experiência.
@@ -91,10 +92,20 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto fuga maxime sint minus labore corrupti offici
             is enim, repellat quos debitis nemo amet quas magnam harum voluptatum sit obcaecati deserunt quaerat?</p>    
         </section>
-    </div>
 
-    <footer>
-        <p>Todos direitos reservados a QuickSyntax.</p>
-    </footer>
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>Fale conosco!</h3>
+            <input type="text" name="name" id="name" placeholder="Seu nome" required>
+            <input type="email" name="email" id="email" placeholder="Seu email" required>
+            <input type="text" name="name" id="phone" placeholder="Telefone" required>
+            <textarea id="message" cols="30" rows="5" placeholder="Como podemos ajudar?"></textarea>
+            <button type="submit" aria-placeholder="Enviar">Enviar</button>
+
+        </form>
+
+    </div>
+    
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
 </body>
 </html>
