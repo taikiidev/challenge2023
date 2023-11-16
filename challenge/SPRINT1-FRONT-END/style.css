@@ -5,6 +5,10 @@
     color: whitesmoke;
 }
 
+button{
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
     color: #070707;
@@ -41,13 +45,19 @@ ul{
 }
 
 li{
+    padding: 5px 12px;
     border: 1px solid #070707;
+    border-radius: 5px;
+
     list-style: none;
     text-align: center;
-    padding: 5px 8px;
-    background-color: whitesmoke    ;
-    border-radius: 5px;
+    background-color: whitesmoke;
+
     cursor: pointer;
+}
+
+li:hover{
+    background-color: #e4e4e4
 }
 
 .container{
@@ -117,3 +127,52 @@ h1 {
     font-size: 40px;
     margin-bottom: 12px;
 }
+
+footer{
+    background-color: rgb(101, 160, 119);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    padding: 20px 0;
+}
+
+label{
+    color: #070707;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.modal_controler{
+    position: fixed;
+    left: 30%;
+    top: 40%;
+
+    padding: 15px 25px;
+}
+
+.modal_controler::backdrop {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.modal_open{
+    color: #070707;
+
+    padding: 5px 8px;
+    border: 1px solid #070707;
+    border-radius: 5px;
+}
+
+.modal_close{
+    color: #070707;
+
+    padding: 5px 8px;
+    border: 1px solid #070707;
+    border-radius: 5px;
+}
+
