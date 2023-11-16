@@ -30,7 +30,6 @@ listItemComparacao.addEventListener('click', () => {
 })
 
 
-
 const modalOpen = document.querySelector('.modal_open')
 const modalControler = document.querySelector('.modal_controler')
 const modalClose = document.querySelector('.modal_close')

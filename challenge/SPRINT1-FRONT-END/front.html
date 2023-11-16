@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/styles/typograph.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
@@ -13,22 +16,22 @@
     <header id = 'menu'>
         <nav class = 'links'>
             <ul class="nav_list">
-                <li class="list_item-introducao">
+                <li class="nav_list-item list_item-introducao">
                     <a href="#section-introducao">Introdução do grupo</a>
                 </li>
-                <li class="list_item-problema">
+                <li class="nav_list-item list_item-problema">
                     <a href="#section-problema">O problema</a>
                 </li>
-                <li class="list_item-entendimento">
+                <li class="nav_list-item list_item-entendimento">
                     <a href="#section-entendimento">Entendendo o problema</a>
                 </li>
-                <li class="list_item-solucao">
+                <li class="nav_list-item list_item-solucao">
                     <a href="#section-solucao">Solução</a>
                 </li>
-                <li class="list_item-aplicacao">
+                <li class="nav_list-item list_item-aplicacao">
                     <a href="#section-aplicacao">Aplicação da solução</a>
                 </li>
-                <li class="list_item-comparacao">
+                <li class="nav_list-item list_item-comparacao">
                     <a href="#section-comparacao">Problema X Solução</a>
                 </li>
             </ul>
@@ -102,7 +105,7 @@
 
             </p> 
         </section>
-
+    </div>
 
     <footer>
         <button class="modal_open">Entre em contato conosco</button>
@@ -112,9 +115,9 @@
     <dialog class="modal_controler">
         <div class="modal_container">
             <button class="modal_close">X</button>
+            <h3>Fale conosco!</h3>
 
             <form action="">
-                <h3>Fale conosco!</h3>
                 <input type="text" name="name" id="name" placeholder="Seu nome" required>
                 <input type="email" name="email" id="email" placeholder="Seu email" required>
                 <input type="text" name="name" id="phone" placeholder="Telefone" required>
@@ -124,6 +127,6 @@
         </div>
     </dialog>
 
-    <script src="./back.js"></script>
+    <script src="./src/scripts/back.js"></script>
 </body>
 </html>
