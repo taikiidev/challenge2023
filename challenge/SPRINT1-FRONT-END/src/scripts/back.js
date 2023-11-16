@@ -47,10 +47,10 @@ function closeModal(){
     modalClose.addEventListener('click', () => {
         modalControler.close()
     })
-
+    
     window.addEventListener('click', function (event) {
         if (event.target == modalControler) {
-            modalControler.style.display = 'none';
+            modalControler.close()
         }
     })
 }
