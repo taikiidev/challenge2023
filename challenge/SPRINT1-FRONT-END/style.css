@@ -18,13 +18,14 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: rgba(102, 150, 111, 0.75);
-   
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #58d18d;
+    font-family: 'Rubik', sans-serif;
+    
+
 }
 
 header{
-    background-color: #1c1c1c;
+    background-color: #3f3e3e;
     width: 100%;
     position: fixed  ;
     top: 0;
@@ -48,10 +49,10 @@ li{
     padding: 5px 12px;
     border: 1px solid #070707;
     border-radius: 5px;
+    background-color: whitesmoke;
 
     list-style: none;
     text-align: center;
-    background-color: whitesmoke;
 
     cursor: pointer;
 }
@@ -70,62 +71,106 @@ li:hover{
 
 p {
     font-size: 26px;
-}
+    text-align: justify;
+}   
 
 
 #section-introducao {
     scroll-margin-top: 110px ;
     margin-top: 40px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(70, 70, 70);
     border-radius: 7px;
-    background-color: rgba(102, 150, 111, 0.75);
+    background-color: rgba(75, 75, 75, 0.75);
     padding: 10px 30px 20px;
 }
 
 #section-problema {
     scroll-margin-top: 110px ;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid  rgb(70, 70, 70);
     border-radius: 7px;
-    background-color: rgba(102, 150, 111, 0.75);
+    background-color: rgba(75, 75, 75, 0.75);
     padding: 10px 30px 20px;
 }
 
 #section-entendimento {
     scroll-margin-top: 110px ;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid  rgb(70, 70, 70);
     border-radius: 7px;
-    background-color: rgba(102, 150, 111, 0.75);
+    background-color: rgba(75, 75, 75, 0.75);
     padding: 10px 30px 20px;
 }
 
 #section-solucao {
     scroll-margin-top: 110px ;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid  rgb(70, 70, 70);
     border-radius: 7px;
-    background-color: rgba(102, 150, 111, 0.75);
+    background-color: rgba(75, 75, 75, 0.75);
     padding: 10px 30px 20px;
 }
 
 #section-aplicacao {
     scroll-margin-top: 110px ;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid  rgb(70, 70, 70);
     border-radius: 7px;
-    background-color: rgba(102, 150, 111, 0.75);
+    background-color: rgba(75, 75, 75, 0.75);
     padding: 10px 30px 20px;
 }
 
 #section-comparacao {
     scroll-margin-top: 110px ;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid  rgb(70, 70, 70);
     border-radius: 7px;
-    background-color: rgba(102, 150, 111, 0.75);
+    background-color:rgba(75, 75, 75, 0.75);
     padding: 10px 30px 20px;
 }
-
 
 h1 {
     font-size: 40px;
     margin-bottom: 12px;
+    color: rgb(42, 41, 41);
+}
+
+form {
+    background-color: rgba(75, 75, 75, 0.75);
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 40%;
+    max-width: 400px;
+    border-radius: 10px;
+
+}
+
+form > h3 {
+    color: rgb(42, 41, 41);
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-size: 40px;
+    margin-left: 10px;
+
+}
+
+form > input, form > textarea {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    outline: none;
+    background: white ;
+    font-size: 16px;
+    color: black;
+
+}
+
+form > button {
+    margin: 0 10px 0 10px    ;
+    padding: 10px;
+    background: orangered;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    width: 150px;      
 }
 
 footer{
@@ -175,4 +220,3 @@ input{
     border: 1px solid #070707;
     border-radius: 5px;
 }
-
