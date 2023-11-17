@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge</title>
+
     <link rel="stylesheet" href="./src/styles/reset.css">
-    <link rel="stylesheet" href="./src/styles/style.css">
     <link rel="stylesheet" href="./src/styles/typograph.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,8 +41,8 @@
         
         
     <div class="container">
-        <section id ="section-introducao">
-            <div class = 'div-intro'>
+        <section id ="section-introducao" class="section_container">
+            <div class = 'div_introducao'>
                 <h1>Introdução</h1>
                 <p>A Challenge 2023 da FIAP, em parceria com o renomado Hospital Das Clínicas mais especificamente com o InovaHC (Núcleo de Inovação Tecnológica do Hospital das Clínicas), visa resolver questões do mundo real através de inovações tecnológicas. O Instituto da 
                     Criança vêm enfrentando alguns contratempos em seis meios hospitalares. É por
@@ -52,65 +53,117 @@
             </div>
         </section>
         
-        <section id ="section-problema">
-            <h1>O problema</h1>
-            <p>O ICR (Instituto da Criança) é uma instituição do Hospital das Clínicas que admite pacientes entre 0 - 18 anos de idade, sendo a maioria desses parte do setor 
-                de "Atenção Terciária", isto é, pacientes que precisam de maior atenção e cuidados por terem quadros clínicos de maior complexidade. Sabendo disso, o principal
-                objetivo do projeto é humanizar os processos nos leitos hospitalares, para que dessa forma os pacientes e seus acompanhantes tenham uma experiência mais agradável 
-                durante a estadia no hospital.
-            </p>
+        <section id ="section-problema"  class="section_container">
+            <div class="div_problema">
+                <h1>O problema</h1>
+                <p>
+                    O ICR (Instituto da Criança) é uma instituição do Hospital das Clínicas que admite pacientes entre 0 - 18 anos de idade, sendo a maioria desses parte do setor 
+                    de "Atenção Terciária", isto é, pacientes que precisam de maior atenção e cuidados por terem quadros clínicos de maior complexidade. 
+                </p>
+                <p>
+                    Sabendo disso, o principal objetivo do projeto é humanizar os processos nos leitos hospitalares,
+                    para que dessa forma os pacientes e seus acompanhantes tenham uma experiência mais agradável durante a estadia no hospital.
+                </p>
+            </div>
+            <img class="img_problema" src="./src/assets/garoto_pensando.png" alt="">
         </section>
         
-        <section id ="section-entendimento">
-            <h1>Análise do problema.</h1>
-            <p> A humanização dos procedimentos realizados durante a estadia do paciente no hospital pode ser um processo mais desafiador do que parece. São diferentes quadros e faixas etárias a serem considerados.
-                Tendo em vista a questão da diversidade como o maior obstáculo do desafio, é importante introduzir uma solução abrangente e eficaz buscando melhorar a experiência da maior parcela possível dos usuários.
-            </p>
-            </p>
+        <section id ="section-entendimento"  class="section_container">
+            <img src="./src/assets/analise_problema.png" alt="">
+            <div class="div_entendimento">
+                <h1>Análise do problema.</h1>
+                <p> A humanização dos procedimentos realizados durante a estadia do paciente no hospital pode ser um processo mais desafiador do que parece. São diferentes quadros e faixas etárias a serem considerados.
+                    Tendo em vista a questão da diversidade como o maior obstáculo do desafio, é importante introduzir uma solução abrangente e eficaz buscando melhorar a experiência da maior parcela possível dos usuários.
+                </p>
+            </div>
         </section>
         
-        <section id ="section-solucao">
-            <h1>Proposta de solução</h1>
-            <p>O escopo de soluções existentes para os problemas apresentados é amplo, porém é importante filtrar as ideias para assim verificar quais delas serão mais adequadas
-                às condições do hospital e dos pacientes. Tendo como principal pilar a questão de humanização dos processos que ocorrem dentro do hospital, enfatiza-se o tópico do 
-                emocional dos pacientes e acompanhantes. Em momentos de internação e exames, a ansiedade e tensão por parte deles têm um grande impacto em seu bem-estar. 
-                Ademais, por ser uma instituição voltada a crianças e adolescentes, o desafio é ainda maior, visto que pacientes nessa faixa etária de maneira geral não 
-                possuem o conhecimento sobre os processos pelos quais eles serão submetidos.
-            </p>
+        <section id ="section-solucao"  class="section_container">
+            <div class="div_solucao">
+                <h1>Proposta de solução</h1>
+                <p>O escopo de soluções existentes para os problemas apresentados é amplo, porém é importante filtrar as ideias para assim verificar quais delas serão mais adequadas
+                    às condições do hospital e dos pacientes. Tendo como principal pilar a questão de humanização dos processos que ocorrem dentro do hospital, enfatiza-se o tópico do 
+                    emocional dos pacientes e acompanhantes. Em momentos de internação e exames, a ansiedade e tensão por parte deles têm um grande impacto em seu bem-estar. 
+                    Ademais, por ser uma instituição voltada a crianças e adolescentes, o desafio é ainda maior, visto que pacientes nessa faixa etária de maneira geral não 
+                    possuem o conhecimento sobre os processos pelos quais eles serão submetidos.
+                </p>
+            </div>
         </section>
         
-        <section id ="section-aplicacao">
-            <h1>Aplicação da solução</h1>
-            <p> Visando a praticidade e fácil acesso a informação, o nosso projeto é aprimorar uma antiga iniciativa do ICR. A forma mais eficaz de dimiuir tensão e ansiedade
-                dos pacientes e acompanhantes durante internações e exames é fornecer informações de maneira lúdica aos pacientes, para que eles entendam os processos aos quais serão submetidos durante sua jornada no ICR, visto que a falta de informação pode levar à ansiedade
-                e desconforto, como proposto anteriormente.
-                Em abril de 2017, uma iniciativa idealizada por Aide Mitie Kudo visava justamente facilitar a circulação de informações de exames e processos
-                hospitalares aos pequenos pacientes do ICR, através do manual lúdico-didático "Pedrinho no HC". A intenção do QuickSyntax é apoiar a ideia da informação aos jovens pacientes, enriquecendo
-                a ideia inical e a transferindo do papel para o digital, visto que uma porcentagem avassaladora das crianças brasileiras utilizam dispositivos móveis segundo pesquisas.
-            </p>
+        <section id ="section-aplicacao"  class="section_container">
+            <div class="div_aplicacao">
+                <h1>Aplicação da solução</h1>
+                <p> Visando a praticidade e fácil acesso a informação, o nosso projeto é aprimorar uma antiga iniciativa do ICR. A forma mais eficaz de dimiuir tensão e ansiedade
+                    dos pacientes e acompanhantes durante internações e exames é fornecer informações de maneira lúdica aos pacientes, para que eles entendam os processos aos quais serão submetidos durante sua jornada no ICR, visto que a falta de informação pode levar à ansiedade
+                    e desconforto, como proposto anteriormente.
+                    Em abril de 2017, uma iniciativa idealizada por Aide Mitie Kudo visava justamente facilitar a circulação de informações de exames e processos
+                    hospitalares aos pequenos pacientes do ICR, através do manual lúdico-didático "Pedrinho no HC". A intenção do QuickSyntax é apoiar a ideia da informação aos jovens pacientes, enriquecendo
+                    a ideia inical e a transferindo do papel para o digital, visto que uma porcentagem avassaladora das crianças brasileiras utilizam dispositivos móveis segundo pesquisas.
+                </p>
+            </div>
         </section>
         
-        <section id ="section-comparacao">
-            <h1>Comparando o problema com a solução</h1>
+        <section id ="section-comparacao"  class="section_container">
+            <div class="div_comparacao">
+                <h1>Comparando o problema com a solução</h1>
 
-            <ul class="list_problema">
-                <h3>Impactos causados pelo problema:</h3>
-                <li class="list_item-problema">Devido à falta de informações, o paciente pode ter uma experiência traumática durante sua estadia no hospital;</li>
-                <li class="list_item-problema">Em alguns casos, o procedimento ou exame pode se tornar difícil ou impossível devido ao estado alterado do paciente;</li>
-                <li class="list_item-problema">O estado alterado do paciente pode refletir diretamente em seu acompanhante, fazendo com que este opte por não submeter o paciente aos processos necessários;</li>
-                <li class="list_item-problema">Pode haver uma piora no quadro do paciente devido a ansiedade causada por esses procedimentos intrusivos.</li>
-            </ul>
-
-            <ul class="list_solucao">
-                <h3>Impactos da nossa solução:</h3>
-                <li class="list_item-solucao">Informamos o paciente de maneira simples e lúdica, visando amenizar os impactos negativos citados;</li>
-                <li class="list_item-solucao">Diminuimos as chances do paciente desenvolver traumas relacionados aos processos hospitalares;</li>
-                <li class="list_item-solucao">Aumenta a confiança dos pacientes e acompanhantes em relação ao atendimento médico;</li>
-                <li class="list_item-solucao">Reduz o tempo gasto tranquilizando o paciente e seu acompanhante.</li>
-            </ul>
+                <div class="div_comparacao-lists">
+                    <ul class="list_problema">
+                        <h3>Impactos causados pelo problema:</h3>
+                        <li class="list_item-problema">
+                            <p>
+                                • Devido à falta de informações, o paciente pode ter uma experiência traumática durante sua estadia no hospital;
+                            </p>
+                        </li>
+                        <li class="list_item-problema">
+                            <p>
+                                • Em alguns casos, o procedimento ou exame pode se tornar difícil ou impossível devido ao estado alterado do paciente;
+                            </p>
+                        </li>
+                        <li class="list_item-problema">
+                            <p>
+                                • O estado alterado do paciente pode refletir diretamente em seu acompanhante, fazendo com que este opte por não submeter o paciente aos processos necessários;
+                            </p>
+                        </li>
+                        <li class="list_item-problema">
+                            <p>
+                                • Pode haver uma piora no quadro do paciente devido a ansiedade causada por esses procedimentos intrusivos.
+                            </p>
+                        </li>
+                    </ul>
+                    
+                    <div class="div_span">
+                        <span>X</span>
+                    </div>
+                
+                    <ul class="list_solucao">
+                        <h3>Impactos da nossa solução:</h3>
+                        <li class="list_item-solucao">
+                            <p>
+                                • Informamos o paciente de maneira simples e lúdica, visando amenizar os impactos negativos citados;
+                            </p>
+                        </li>
+                        <li class="list_item-solucao">
+                            <p>
+                                • Diminuimos as chances do paciente desenvolver traumas relacionados aos processos hospitalares;
+                            </p>
+                        </li>
+                        <li class="list_item-solucao">
+                            <p>
+                                • Aumenta a confiança dos pacientes e acompanhantes em relação ao atendimento médico;
+                            </p>
+                        </li>
+                        <li class="list_item-solucao">
+                            <p>
+                                • Reduz o tempo gasto tranquilizando o paciente e seu acompanhante.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </div>
-
+    
     <footer>
         <button class="modal_open">Entre em contato conosco</button>
         <p>Todos direitos reservados a QuickSyntax.</p>
@@ -119,7 +172,7 @@
     <dialog class="modal_controler">
         <div class="modal_container">
             <button class="modal_close">X</button>
-            <h3>Fale conosco!</h3>
+            <h1>Fale conosco!</h1>
 
             <form action="">
                 <input type="text" name="name" id="name" placeholder="Seu nome" required>

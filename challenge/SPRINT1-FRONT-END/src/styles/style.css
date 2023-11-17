@@ -1,25 +1,25 @@
-a {
-    color: #070707;
-}
-
 body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: #58d18d;
+    background-color: #f3f3f3;
 }
 
 header{
-    background-color: #3f3e3e;
-    width: 100%;
+    background-color: #13135f;
+
+    width: 100vw;
+
     position: fixed  ;
     top: 0;
 }
 
 .links {
-    padding: 0 100px;
-    font-size: 20px;
-    margin: 30px 0 ;
+    padding: 0 6.25rem;
+    margin: 1.875rem 0 ;
+
+    width: 100%;
+
     display: flex;
     justify-content: space-between;
 }
@@ -27,95 +27,126 @@ header{
 .nav_list{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 70%;
 }
 
 .nav_list-item{
-    padding: 5px 12px;
-    border: 1px solid #070707;
-    border-radius: 5px;
-    background-color: #f5f5f5;
+    border: 1px solid #13135f;
 
     list-style: none;
     text-align: center;
+
+    display: flex;
+    align-items: center;
 
     cursor: pointer;
 }
 
 .nav_list-item:hover{
-    background-color: #dddddd
+    border-bottom: 1px solid #fafafa;
 }
+
 
 .container{
-    padding: 0 100px 50px;
+    padding: 0 6.25rem 3.125rem;
+    margin-top: 6.25rem;
+
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    margin-top: 100px;
+    gap: 2.5rem;
 }
 
-#section-introducao {
-    scroll-margin-top: 110px ;
-    margin-top: 40px;
-    border-bottom: 2px solid rgb(70, 70, 70);
-    border-radius: 7px;
-    background-color: rgba(75, 75, 75, 0.75);
-    padding: 10px 30px 20px;
+.section_container {
+    scroll-margin-top: 7rem ;
+
+    padding: 20px 30px;
+
+    display: flex;
 }
 
-#section-problema {
-    scroll-margin-top: 110px ;
-    border-bottom: 2px solid  rgb(70, 70, 70);
-    border-radius: 7px;
-    background-color: rgba(75, 75, 75, 0.75);
-    padding: 10px 30px 20px;
+.section_container > div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-#section-entendimento {
-    scroll-margin-top: 110px ;
-    border-bottom: 2px solid  rgb(70, 70, 70);
-    border-radius: 7px;
-    background-color: rgba(75, 75, 75, 0.75);
-    padding: 10px 30px 20px;
+
+#section-problema{
+    align-items: center;
 }
 
-#section-solucao {
-    scroll-margin-top: 110px ;
-    border-bottom: 2px solid  rgb(70, 70, 70);
-    border-radius: 7px;
-    background-color: rgba(75, 75, 75, 0.75);
-    padding: 10px 30px 20px;
+.div_problema{
+    width: 50%;
 }
 
-#section-aplicacao {
-    scroll-margin-top: 110px ;
-    border-bottom: 2px solid  rgb(70, 70, 70);
-    border-radius: 7px;
-    background-color: rgba(75, 75, 75, 0.75);
-    padding: 10px 30px 20px;
+.img_problema{
+    width: 500px;
+    height: 500px;
+
+    border-radius: 18px;
+
+    margin-left: 140px;
 }
 
-#section-comparacao {
-    scroll-margin-top: 110px ;
-    border-bottom: 2px solid  rgb(70, 70, 70);
-    border-radius: 7px;
-    background-color:rgba(75, 75, 75, 0.75);
-    padding: 10px 30px 20px;
+#section-entendimento{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10vw;
+}
+
+.div_entendimento{
+    width: 50%;
+}
+
+
+.div_comparacao{
+    width: 100%;
+}
+
+.div_comparacao-lists{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 15px;
+}
+
+.div_span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_span > span{
+    font-size: 50px;
 }
 
 .list_problema{
-    margin-bottom: 20px;
+    width: 35vw;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
+.list_solucao{
+    width: 35vw;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
 footer{
-    background-color: rgb(101, 160, 119);
+    background-color: rgb(150, 187, 173);
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: .9375rem;
 
-    padding: 20px 0;
+    padding: 1.25rem 0;
 }
 
 form {
@@ -130,45 +161,41 @@ form {
 }
 
 form > input, form > textarea {
-    border-radius: 10px;
-    margin: 10px;
-    padding: 20px;
+    margin: .625rem;
+    padding: 1.25rem;
+    border-radius: .625rem;
+    
     outline: none;
-    background: white ;
-    font-size: 16px;
-    color: black;
+    font-size: 1rem;
 
+    background: white ;
+    color: black;
 }
 
 form > button {
-    margin: 0 10px 0 10px    ;
-    padding: 10px;
+    margin: 0 .625rem 0 .625rem;
+    padding: .625rem;
+    border-radius: 1.875rem;
+
     background: orangered;
     color: white;
-    font-size: 18px;
-    border-radius: 30px;
+
+    font-size: 1.125rem;
+
     outline: none;
     cursor: pointer;
-    width: 150px;      
-}
 
-label{
-    color: #070707;
-}
-
-input{
-    border: 1px solid black;
-    border-radius: 3px;
+    width: 9.375rem;      
 }
 
 .modal_controler{
     position: fixed;
     left: 30%;
     top: 20%;
-    border-radius: 10px;
+    border-radius: .625rem;
     width: 40vw;
     
-    padding: 15px 25px;
+    padding: .9375rem 1.5625rem;
 }
 
 .modal_controler::backdrop {
@@ -181,18 +208,16 @@ input{
 .modal_open{
     color: #070707;
 
-    padding: 5px 8px;
-    border: 1px solid #070707;
-    border-radius: 5px;
+    padding: .3125rem .5rem;
+    border-radius: .3125rem;
 }
 
 .modal_close{
     color: #070707;
 
-    padding: 5px 8px;
-    border: 1px solid #070707;
-    border-radius: 5px;
+    padding: .3125rem .5rem;
+    border-radius: .3125rem;
 
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
 }

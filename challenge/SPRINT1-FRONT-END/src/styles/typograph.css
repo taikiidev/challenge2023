@@ -1,22 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
 body{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'inter', sans-serif;
 }
 
 p{
-    font-size: 26px;
+    font-size: 1.625rem;
     text-align: justify;
 }
 
+
+a {
+    text-decoration: none;
+    color: #fafafa;
+    
+    font-size: 1rem;
+}
+
 h1{
-    font-size: 40px;
-    margin-bottom: 12px;
+    font-size: 2.5rem;
     color: rgb(42, 41, 41);
 }
 
-.modal_container > h3 {
+ul > h3{
+    font-size: 1.7rem;
+}
+
+
+.modal_container > h1 {
     color: rgb(42, 41, 41);
     font-weight: 800;
-    margin-bottom: 20px;
-    font-size: 40px;
-    margin-left: 10px;
+    margin-bottom: 1.25rem;
+    font-size: 2.5rem;
+    margin-left: .625rem;
+}
+
+#section-comparacao > ul > h3{
+    font-size: 2rem;
 }
